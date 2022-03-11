@@ -77,6 +77,15 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <section class="container">
+            <h1 class="text-center mb-5 mt-5">Question and Answer</h1>
+            <h4>Q1- What does javascript event loop do?</h4>
+            <p>Answer : The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.Event loop is just a guardian who keeps a good communication with Call Stack and Callback Queue. It checks if the call stack is free, then lets know the callback queue. Then Callback queue passes the callback function to Call stack to be executed. When all the callback functions are executed, the call stack is out and global execution context is free.A very interesting property of the event loop model is that JavaScript, unlike a lot of other languages, never blocks. Handling I/O is typically performed via events and callbacks, so when the application is waiting for an IndexedDB query to return or an XHR request to return, it can still process other things like user input.</p>
+            <h4>Q2- Difference between local storage vs session storage?</h4>
+            <p>Answer : LocalStorage data has no expiration time but sessionStorage data gets cleared when the page session ends.The storage capacity of local storage is 5MB/10MB and the storage capacity of session storage is 5MB.In local storage data are not transferred on each HTTP request and in session storage data are not transferred on each HTTP request.Both has no SSL support.The client can only read local storage and also the client can only read session storage.There are fewer old browsers that supports the both storage.</p>
+            <h4>Q3- How does javascript works?</h4>
+            <p>Answer : JavaScript is a scripting language for the web. It is an interpreted language.JavaScript works with HTML and CSS to build web apps or web pages. JavaScript is supported by most modern web browsers like Google Chrome, Firefox, Safari, Microsoft Edge, Opera, etc. JavaScript controls the dynamic elements of web pages.Mostly every web browsers nowadays have their own JavaScript engines.In chrome browser to run our program that has the "V8" JavaScript engine, which is also used for creating the Node.js.As we already know, JavaScript is an interpreted language that means it gets executed in line by line manner.Whenever we run a JavaScript program inside a web browser, JavaScript code is received by the browser's engine and the engine runs the source code to obtain the output.</p>
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->
